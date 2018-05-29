@@ -46,7 +46,7 @@ ms.lasthandoff: 05/03/2018
   
  默认情况下，Visual Studio 会检测以确定源是否该文件在编码的 Unicode 格式，例如 utf-16 或 utf-8 字节顺序标记。 如果不找到任何字节顺序标记，则它假定源文件使用编码的当前的用户代码页，除非你指定一个字符名称或代码页的设置方式使用 **/source-charset**选项或 **/utf-8**选项。 Visual Studio 允许你使用任何几个字符编码保存你的 c + + 源代码。 有关源和执行字符集的信息，请参阅[字符集](../../cpp/character-sets.md)语言文档中。  
   
- 如果你想要设置的源字符集和执行字符集为 utf-8，则可以使用 **/utf-8**作为快捷方式的编译器选项。 它等效于指定 **/源-charset:utf-8 /execution-charset:utf-8**命令行上。 所有这些选项还允许 **/validate-charset**默认情况下的选项。  
+ 如果你想要设置的源字符集和执行字符集为 utf-8，则可以使用 **/utf-8**作为快捷方式的编译器选项。 它等效于指定 **/source-charset:utf-8 /execution-charset:utf-8**命令行上。 所有这些选项还允许 **/validate-charset**默认情况下的选项。  
   
 ### <a name="to-set-this-compiler-option-in-the-visual-studio-development-environment"></a>在 Visual Studio 开发环境中设置此编译器选项  
   
